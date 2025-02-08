@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chall.css">
+    <title> conference ticket generatore</title>
+</head>
+<body>
+    <div class="container">
+        <h2>conference ticket generatore</h2>
+        <form id="ticket-form">
+            <label for="avatar">Upload Avatar</label>
+      <input type="file" id="avatar" accept="image/png, image/jpeg" required>
+      <small>Drag and drop or click to upload. Upload your photo (JPG or PNG, max size: 500KB).</small>
+            <label for="Name">Full Name: </label>
+            <input type="text" id="Name"name="Name"requird>
+            <label for="Email">Email:</label>
+            <input type="text" id="email"name="email"requird>
+            <label for="github">GitHub Username</label>
+            <input type="text" id="github" placeholder="@yourusername" required>
+            <button type="submit">Generate Ticket</button>
+        </form>
+        <div id="ticket-section" class="hidden">
+            <h2>Congrats, <span id="ticket-full-name"></span>! Your ticket is ready.</h2>
+            <p>We've emailed your ticket to <span id="ticket-email"></span> and will send updates in the run up to the event.</p>
+            <p><strong>Coding Conf</strong><br>Jan 31, 2025 / Austin, TX</p>
+          </div>
+        
+          <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+            Coded by <a href="#">Yasmine SaadAllah</a>.
+            <script src="chall.js"></script>
+          </div
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>
